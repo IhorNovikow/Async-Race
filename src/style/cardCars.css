@@ -1,0 +1,40 @@
+.main-content-wrapper{
+    border-bottom: 1px dashed white;
+    display: flex;
+    color: white;
+    height: 100px;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.main-content-button{
+    display: flex;
+    height: 30px;
+}
+.main-select, .main-remove{
+    cursor: pointer;
+}
+.main-content-top{
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+}
+.main-content-subbutton{
+    display: flex;
+}
+.main-content-name{
+    margin-left: 20px;
+}
+.svg-card{
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+  width: 20%;
+  height: 50%;
+}
+.flag{
+  position: absolute;
+  bottom: -1.5vh;
+  right: 20%;
+  font-size: 3vw;
+}

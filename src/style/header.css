@@ -1,0 +1,81 @@
+.header{
+    background-color: black;
+}
+.header-wrapper{
+    color: white;
+    width: 30%;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wrapper-button-str, .wrapper-button-play{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-str{
+    width: 48%;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.btn-str:hover{
+    border: 1px solid rgb(242, 255, 0);
+}
+.btn-str:active{
+    border: 1px solid red;
+}
+.wrapper-create{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.name{
+    width: 60%;
+}
+.color-button{
+    display: flex;
+    justify-content: space-between;
+    width: 38%;
+}
+.colot-input{
+    width: 30%;
+}
+.btn-header{
+    cursor: pointer;
+    width: 68%;
+}
+.color {
+    width: 100%;
+}
+
+.wrapper-update{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.color-create, .color-update{
+    height: 100%;
+}
+.create-csrds{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.wrapper-winner{
+    display: flex;
+    color: white;
+    background-color: black;
+    margin-left: 20px;
+    font-size: 2vw;
+}
+.winner-name{
+    color: rgb(255, 0, 0);
+}

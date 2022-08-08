@@ -1,0 +1,11 @@
+@keyframes move{
+	from{ left:80px;}
+	to{left:80%;}
+}
+
+.transform_left1280{
+	animation-fill-mode: forwards;
+    animation-name: move;
+}
+
+

@@ -1,0 +1,61 @@
+.winner-str-wrapper{
+    color: white;
+}
+.winner-str-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.zindex{
+    z-index: 2;
+}
+.zindexMIN{
+    z-index: -2;
+}
+.winners-wrapper{
+    display: flex;
+    font-size: 1.8vw;
+    width: 90%;
+}
+.table-wrapper{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.head-table{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.5vw;
+}
+.inf-winner{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    height: 3vw;
+}
+.num{
+    display: block;
+    height: 3vw;
+}
+.model-card{
+    width: 50px;
+
+}
+.wrapper-for-inf{
+    display: flex;
+}
+.number-winer{
+    font-size: 1.2vw;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+.winner-ol{
+    width: 90%;
+}

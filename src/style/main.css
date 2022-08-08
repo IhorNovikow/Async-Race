@@ -1,0 +1,30 @@
+.main{
+    background-color: black;
+}
+.main-title-wrapper, .main-subtitle-wrapper{
+    display: flex;
+    color: white;
+    margin-left:50px;
+    font-size: 1.8vw;
+
+}
+.main-title-wrapper{
+    padding-top: 10px;
+    height: 40px;
+
+}
+.main-subtitle-wrapper{
+    margin-bottom: 2vw;
+}
+.main-pagination{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.button-left, .button-right{
+    width: 45%;
+    height: 100%;
+}
